@@ -1,0 +1,102 @@
+/*het begin van mijn css bestand, we hebben heel de body standaard oranje met zwart gemaakt*/
+body {
+color: orange;
+background-color: black;
+}
+
+/*dit is de titel "Top 10 dingen voor €10,-"*/
+h1 {
+  text-align: center;
+  color: orange;
+}
+
+/* begin boos-container */
+.boss-container {
+  //display: flex;
+  background-color: black;
+  margin: 0 10%;
+  color: orange;
+}
+
+/*dit is de opsomming 1 t/m 10 aan de linkerkant van het plaatje, we hebben met "text-decoration: none;" de lijn en link onder de producten weggehaald.*/
+a {
+  text-decoration: none;
+  color: orange;
+}
+
+.box2 {
+  display: flex; /* met deze display: flex; zet je de 1 t/m 10 en het plaatje naast elkaar */
+  //flex-wrap: wrap; /* we hebben deze flex-wrap: wrap; ver aan het begin van het maken van de website erneer gezet, maar kwam er veel later achter dat het eigenlijk niks deed */
+  color: orange;
+}
+
+.foto1 { /* hier heb ik de float: right; en margin-right: auto; er ook heel mooi bij gezet, maar toen ik er aan het eind // voor zette veranderde er niks aan de website :) */
+  //float: right;
+  background-color: black;
+  //margin-right: auto;
+}
+
+.flexbox-container {
+  display: flex;
+  background-color: black;
+  height: auto;
+  width: auto;
+  text-align: left;
+  flex-direction: column;
+}
+
+.blok1 {
+  height: auto;
+  width: auto;
+  text-align: left;
+  text-transform: full-width;
+}
+
+ ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  background-color: black;
+
+}
+
+.navbar1 {
+  display: inline;
+  color: orange;
+  border: 2px solid white;
+  font-size: large;
+  background-color: #black;
+  padding: 5px;
+
+
+}
+
+.navbar-container {
+  background-color: black;
+  text-align: center;
+  color: black;
+  height: 150px;
+  margin: 50px;
+}
+
+/* dit is alles voor het stukje Kussenopfoto*/
+.boss-container2 {
+  color: red;
+  margin: 0 10%;
+}
+
+.h1kussenmetfoto {
+  color: red;
+}
+
+
+
+/* dit is alles voor het stukje iPhoneDiscolamp*/
+.iPhoneDiscolamp {
+  color: yellow;
+  background-color: blue;
+}
+
+.iPhoneDiscolampdiv1 {
+  background-color: blue;
+}
